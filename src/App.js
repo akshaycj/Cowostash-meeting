@@ -12,7 +12,7 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route exact path='/' component={Staffs} />
-            <Route exact path='/time' component={Schedule} />
+            <Route exact path='/:name' component={Schedule} />
           </Switch>
         </BrowserRouter>
       </div>

@@ -15,6 +15,7 @@ export default class Screen3 extends React.Component{
       companyName : "" ,
       timeRequired : 0 ,
       timeSlotSelected : 0 ,
+      id : this.props.match.params.name ,
     }
   }
 

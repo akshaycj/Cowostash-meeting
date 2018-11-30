@@ -10,10 +10,10 @@ export default class Screen2 extends React.Component{
 
     for(let i=0;i<12;i++){
       items.push(
-        <Link to='/time' >
+        <Link to={'/'+i}>
           <div style={{display : "flex" , flexDirection : "column" , margin : "20px",cursor:'pointer'}}>
             <div style={{display : "flex" , alignItems : "center" , justifyContent : "center"}}><Icon style={{fontSize : "100px"}} type="github" /></div>
-            <div style={{fontSize : "20px"}}>Richard CEO</div>
+            <div style={{fontSize : "20px"}}>Richard CEO {i}</div>
           </div>
         </Link>
       )
